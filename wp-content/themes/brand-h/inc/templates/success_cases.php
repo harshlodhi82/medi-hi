@@ -75,8 +75,9 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-        <div id="successCase_popup" class="w-full sm:w-1/2 md:w-2/5 fixed top-0 z-50 bg-white hidden" style="max-width: 635px;height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; left: 50%; transform: translate(-50%, -50%);">
+        <div id="successCase_popup" class="w-full sm:w-1/2 md:w-2/5 fixed top-0 z-50 p-10 pt-20 bg-white hidden" style="max-width: 635px;height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart2.png);background-repeat: no-repeat;background-size:100% 100%;top:50%; left: 50%; transform: translate(-50%, -50%);">
             <!-- PopUp Content goes here. -->
+            Hi This is Harsh
     </div>
     <script>
         let successCasePopUp = document.getElementById("successCase_popup");
@@ -98,8 +99,8 @@
         }
 
         //** Events */
-        affiliateCholeithiasisBtn.addEventListener('click', affiliatePopUpHandeler);
-        affiliatePopUpBg.addEventListener('click', affiliatePopUpHandeler);
+        successCaseCholeithiasisBtn.addEventListener('click', successCasePopUpHandeler);
+        successCasePopUpBg.addEventListener('click', successCasePopUpHandeler);
     </script>
 </section>
 <!-- Section 3-5 (end) -->

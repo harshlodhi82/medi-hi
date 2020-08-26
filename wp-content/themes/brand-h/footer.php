@@ -220,20 +220,6 @@
 
 // }	
 
-
-//** Affiliate Page JS */
-
-function affiliatePageJS(){
-	
-}
-
-//** Success Case Page JS */
-
-function successCasePageJS(){
-	
-}
-
-
 </script>
 </body>
 
