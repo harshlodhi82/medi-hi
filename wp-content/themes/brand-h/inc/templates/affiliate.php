@@ -1,5 +1,8 @@
 
 <div class="pt-20">
+<style type="text/css" scoped>
+    .hide_scrollBar::-webkit-scrollbar { background-color:transparent; width:0px; } 
+</style>
   <!-- <div id="popup_cancel_btn" class="absolute top-0 right-0 p-4 m-4 text-3xl cursor-pointer z-40 font-bold text-white hidden" >X</div>
   <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 z-20 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
   <div id="pop_up_bg2" class="absolute w-screen h-screen top-0 right-0 z-20 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
@@ -120,7 +123,7 @@ Surgery: Interbody fusion, C-spine or L-spine, Posterior fusion, Total Knee Repl
             <div class="w-32 h-32 sm:w-40 sm:h-40 absolute border-solid border-4 sm:border-8 border-gray-600 rounded-full overflow-hidden" style="top:40%;transform: translateY(-60%);">
                 <img id="bms_avatar_image" class="w-full bg-white" alt="" srcset="">
             </div>
-            <div class="w-full overflow-auto mt-24" style="flex:60%;">
+            <div class="w-full overflow-auto mt-24 hide_scrollBar" style="flex:60%;">
                 <p id="bms_heading">Text</p>
                 <p id="bms_about_text">#Text</p>
                 <p id="bms_tags">#Text</p>

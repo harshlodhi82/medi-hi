@@ -1,5 +1,10 @@
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
+
+<style type="text/css" scoped>
+    .hide_scrollBar::-webkit-scrollbar { background-color:transparent; width:0px; } 
+</style>
+
 <div class="flex justify-center flex-wrap mx-10">
         <div class="mx-auto mb-24 mt-5 lg:h-24 h-24 w-24 lg:w-24"> 
             <svg viewBox="0 0 384 512" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -60,14 +65,6 @@
         </div>
     </div>
 
-    <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="main_pop_up" class="w-full absolute top-0 hidden" 
-        style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
-        <div>
-            asdasd
-        </div>
-    </div>
-
     <!-- <div id="pop_up_bg" class="fixed w-screen h-screen top-0 right-0" style="background-color: rgba(0, 0, 0, 0.6);"></div>
     <div id="main_pop_up" class="w-full absolute top-0" 
         style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
@@ -75,15 +72,105 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-        <div id="successCase_popup" class="w-full sm:w-1/2 md:w-2/5 fixed top-0 z-50 p-10 pt-20 bg-white hidden" style="max-width: 635px;height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart2.png);background-repeat: no-repeat;background-size:100% 100%;top:50%; left: 50%; transform: translate(-50%, -50%);">
+        <div id="successCase_popup" class="hide_scrollBar w-full sm:w-1/2 md:w-2/5 fixed top-0 z-50 p-10 pt-20 bg-white overflow-auto hidden" style="max-width: 635px;height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart2.png);background-repeat: no-repeat;background-size:100% 100%;top:50%; left: 50%; transform: translate(-50%, -50%);">
             <!-- PopUp Content goes here. -->
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            i This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
+            Hi This is Harsh
             Hi This is Harsh
     </div>
     <script>
         let successCasePopUp = document.getElementById("successCase_popup");
         let successCasePopUpBg = document.getElementById("successCase_popup_bg");
         let successCaseCholeithiasisBtn = document.getElementById("choleithiasis_button");
-
         let isSuccessCasePopUpShowing = false;
 
         const successCasePopUpHandeler = ()=>{
