@@ -15,9 +15,8 @@
         </div>
   
         
-
         <div class="flex justify-center flex-wrap w-8/12 lg:w-5/12 lg:text-3xl">
-            <button id="choleithiasis_button" onclick="success_cases_popup()"
+            <button id="choleithiasis_button"
                 class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
                 Choleithiasis
                 <svg class="w-10 lg:w-10 absolute right-0 mr-5 lg:mr-5" viewBox="0 0 640 512" fill="none"
@@ -69,14 +68,39 @@
         </div>
     </div> -->
 
-    <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="main_pop_up" class="w-full absolute top-0 hidden" 
+    <!-- <div id="pop_up_bg" class="fixed w-screen h-screen top-0 right-0" style="background-color: rgba(0, 0, 0, 0.6);"></div>
+    <div id="main_pop_up" class="w-full absolute top-0" 
         style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
-        <div>
-            asdasd
-        </div>
-    </div>
+    
+    </div> -->
 
+    <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
+        <div id="successCase_popup" class="w-full sm:w-1/2 md:w-2/5 fixed top-0 z-50 bg-white hidden" style="max-width: 635px;height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; left: 50%; transform: translate(-50%, -50%);">
+            <!-- PopUp Content goes here. -->
+    </div>
+    <script>
+        let successCasePopUp = document.getElementById("successCase_popup");
+        let successCasePopUpBg = document.getElementById("successCase_popup_bg");
+        let successCaseCholeithiasisBtn = document.getElementById("choleithiasis_button");
+
+        let isSuccessCasePopUpShowing = false;
+
+        const successCasePopUpHandeler = ()=>{
+            console.log("run>>>");
+            isSuccessCasePopUpShowing = !isSuccessCasePopUpShowing;
+            if(isSuccessCasePopUpShowing){
+                successCasePopUpBg.classList.remove("hidden");
+                successCasePopUp.classList.remove("hidden");
+            }else{
+                successCasePopUpBg.classList.add("hidden");
+                successCasePopUp.classList.add("hidden");
+            }
+        }
+
+        //** Events */
+        affiliateCholeithiasisBtn.addEventListener('click', affiliatePopUpHandeler);
+        affiliatePopUpBg.addEventListener('click', affiliatePopUpHandeler);
+    </script>
 </section>
 <!-- Section 3-5 (end) -->
 
