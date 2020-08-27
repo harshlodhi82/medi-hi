@@ -78,17 +78,98 @@
 	<!-- Section1-1 (end) -->
     <!-- Section 2 (start) -->
 
-<section class="mt-20 w-full text-center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="mt-10 w-full text-center overflow-hidden">
   <!-- Chart By Harsh -->
+
+  <div class="w-full bg-gray-100 text-justify">
+		<div class="medi_graph flex flex-col justify-center flex-wrap" style="max-height: 450px;">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px">
+				The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S.
+			</p>
+      
+      <div class="flex-1 flex justify-center flex-wrap" style="max-width: 635px;">
+            <div class="w-screen">
+                <canvas id="chart_1" width="635px" height="350"></canvas>
+            </div>
+      </div>
+
+		</div>
+		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
+				No. of hospitals per a thousand people among OECD countries
+			</p>
+      
+      <div class="flex-1 flex justify-center flex-wrap" style="max-width: 635px;">
+            <div class="w-screen my-10">
+                <canvas id="chart_2" width="635px" height="350"></canvas>
+            </div>
+        </div>
+
+		</div>
+		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
+			<p class="pt-4 px-8  text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
+				Medical expenses for serious illnesses in Germany VS Korea
+			</p>
+
+      <div class="flex-1 flex flex-wrap mx-10" style="max-width: 635px;">
+            <div class="w-full flex flex-row p-4">
+                <div class="flex-auto w-1/2" >
+                    <p class="text-gray-500">$1M</p>
+                    <canvas id="chart_3_1" width="300" height="350"></canvas>
+                </div>
+                <div class="flex-auto  w-1/2" >
+                    <p class="text-gray-500">$1M</p>
+                    <canvas id="chart_3_2" width="300" height="350"></canvas>
+                </div>
+            </div>
+        </div>
+
+		</div>
+	</div>
+
+  <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10">
+		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
+		<button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
+		<button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
+	</div>
+
+   <!-- Chart Text (start) -->
+   <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
+        <h2 class="title-1" >
+        Korea’s medical service boasts a world-class level.
+        </h2>
+        <p class="pt-4 sub-title-1" >
+        Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible.
+        </p>
+    </div>
+
+	<!-- Chart Text (end) -->
+
+	<!-- Arrow icon (start) -->
+	<img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+	<!-- Arrow icon (end) -->	
   
 </section>
 
 <!-- Old Chart -->
-<section class="mt-20 w-full text-center">
+<!-- <section class="mt-20 w-full text-center"> -->
 
 	<!-- Chart (start) -->
   
-	<div class="chartsWrap bg-gray-100 text-justify">
+	<!-- <div class="chartsWrap bg-gray-100 text-justify">
 		<div class="chart0 active lg:p-10 p-0">
 			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
 				The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S.
@@ -108,19 +189,7 @@
 			</p>
 			<img class="mx-auto w-full pt-5 pr-0 pl-4" src="<?php bloginfo('template_directory') ?>/img/chart2.svg" alt="">
 			<div class="flex justify-between py-5 pr-0 pl-0 text-gray-600 text-xs">
-				<!-- <span class="inline-block" style="transform: rotate(-45deg);">South Korea</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Japan</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Australia</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Finland</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">France</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Germany</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Mexico</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Switzerland</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Czech Republic</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Canada</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Chile</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">U.S.</span>
-				<span class="inline-block" style="transform: rotate(-45deg);">Hungary</span> -->
+			
 			</div>
 		</div>
 		<div class="chart2">
@@ -133,33 +202,33 @@
 				<span>Brain cancer</span>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- Chart (end) -->
 
 	<!-- Chart Trigger (start) -->
-	<div class="lg:pt-32 pt-10 flex justify-between px-10 py-10">
+	<!-- <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10">
 		<button class="chartTrig0 border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
 		<button class="chartTrig1 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
 		<button class="chartTrig2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
-	</div>
+	</div> -->
 	<!-- Chart Trigger (end) -->
 
   <!-- Chart Text (start) -->
-  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
+  <!-- <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
         <h2 class="title-1" >
         Korea’s medical service boasts a world-class level.
         </h2>
         <p class="pt-4 sub-title-1" >
         Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible.
         </p>
-    </div>
+    </div> -->
 
 	<!-- Chart Text (end) -->
 
 	<!-- Arrow icon (start) -->
-	<img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+	<!-- <img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon"> -->
 	<!-- Arrow icon (end) -->		
-</section>
+<!-- </section> -->
 <!-- Section 2 (end) -->
 
 <!-- Section 3 (start) -->
@@ -429,8 +498,311 @@
   </div>
 
   <!-- Section 3-2 (end) -->
-	<!--.entry-content-->
+  <!--.entry-content-->
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script>
+  function showGraph(n) {
+    let texts = document.getElementsByClassName('medi_graph')
+    let graphBtns = document.getElementsByClassName('grph_btn')
+    for (let index = 0; index < texts.length; index++) {
+        const graph = texts[index];
+        const graphBtn = graphBtns[index];
+        graph.classList.add("hidden");
+        graphBtn.classList.remove("border-2");
+    }
+    texts[n-1].classList.remove("hidden")
+    graphBtns[n-1].classList.add("border-2")
+  }
 
+  function addDataValuesToBars(dist, myColor) {
+    return function (){
+      let chartInstance = this.chart;
+      let ctx = chartInstance.ctx;
+      ctx.font = Chart.helpers.fontString(10, Chart.defaults.global.defaultFontStyle, Chart.defaults.global.defaultFontFamily);
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'bottom';
+      ctx.fillStyle = myColor? myColor: "#fff";
+      this.data.datasets.forEach(function (dataset, i) {
+          let meta = chartInstance.controller.getDatasetMeta(i);
+          meta.data.forEach(function (bar, index) {
+              let data = dataset.data[index];
+              ctx.fillText(data, bar._model.x, bar._model.y + dist);
+          });
+      });
+    }
+  }
+
+  //** Chart One */
+  // chart_1
+  // chart_2
+  // chart_3
+
+  const chartOneCtx = document.getElementById('chart_1').getContext('2d');
+  const chartOneDataLabels = ["Gastric Cancer","Colon Cancer","Breast Cancer","Liver Cancer","Cervical Cancer"]
+  const chartOneBlueBarValues = [76, 76, 93, 35, 80]
+  const chartOneGreyBarValues = [32, 66, 91, 19, 69]
+
+
+
+  const chartOne = new Chart(chartOneCtx, {
+      type: 'bar',
+      data: {
+          labels: chartOneDataLabels,
+          datasets: [{
+              data: chartOneBlueBarValues,
+              backgroundColor: "rgb(66, 135, 245)",
+          },
+          {
+              data: chartOneGreyBarValues,
+              backgroundColor: "rgb(158, 158, 158)",
+          }
+          ]
+      },
+      options: {
+          scales: {
+              xAxes: [
+                  {
+                      categoryPercentage: 0.5,
+                      barPercentage: 1.0
+                  }
+              ],
+              yAxes: [{
+                  position: 'right',
+                  ticks: {
+                      beginAtZero: true
+                  }
+              }]
+          },
+          legend: {
+              display: false,
+          },
+          layout: {
+              padding: {
+                  left: 0,
+                  right: 0,
+                  top: 0,
+                  bottom: 0
+              }
+          },
+          tooltips: {
+              enabled: false
+          },
+          events: [],
+          responsive: true,
+          maintainAspectRatio:true,
+          animation: {
+              onComplete: addDataValuesToBars(20)
+          }
+      }
+  });
+
+  //** Chart Two */
+  const chartTwoCtx = document.getElementById('chart_2').getContext('2d');
+  const chartTwoDataLabels = ["South Korea", "Japan", "Australia", "Finland", "France", "Germany", "Mexico", "Switzerland", "Czech Republic", "Canada", "Chile", "U.S.", "Hungary"]
+  const chartTwoBlueBarValues = [74, 67, 56, 48, 46, 38, 37, 34, 25, 20, 20, 17, 17]
+
+  const getColors = () => {
+    let maxValue = Math.max(...chartTwoBlueBarValues)
+    let index = chartTwoBlueBarValues.indexOf(maxValue)
+    let col = []
+    chartTwoBlueBarValues.forEach((elm, i)=>{
+        if(i === index){
+            col.push("rgb(66, 135, 245)");
+        }else{
+            col.push("rgb(158, 158, 158)");
+        }
+    })
+    return col;
+  }
+
+  const chartTwo = new Chart(chartTwoCtx, {
+    type: 'bar',
+    data: {
+        labels: chartTwoDataLabels,
+        datasets: [{
+            data: chartTwoBlueBarValues,
+            backgroundColor: getColors(),
+        }
+        ]
+    },
+    options: {
+        scales: {
+            xAxes: [
+                {
+                    categoryPercentage: 0.5,
+                    barPercentage: 1.0
+                }
+            ],
+            yAxes: [{
+                position: 'left',
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        legend: {
+            display: false,
+        },
+        layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 0
+            }
+        },
+        tooltips: {
+            enabled: false
+        },
+        events: [],
+        responsive: true,
+        maintainAspectRatio: true,
+        animation: {
+            onComplete: addDataValuesToBars(-5,'#000')
+        }
+    }
+  });
+
+
+  //** Chart Three */
+
+  // chart_3_1
+  // chart_3_2
+
+  const chartThreeOneCtx = document.getElementById('chart_3_1').getContext('2d');
+  const chartThreeOneLabels = ["Hematologic malignancy"]
+  const chartThreeOneBlueBarValuesOne = [5.85]
+  const chartThreeOneGreyBarValuesOne = [0.92]
+
+  const chartThreeTwoCtx = document.getElementById('chart_3_2').getContext('2d');
+  const chartThreeTwoLabels = ["Brain cancer"]
+  const chartThreeTwoBlueBarValuesTwo = [5.0]
+  const chartThreeTwoGreyBarValuesTwo = [3.5]
+
+  const chartThreeOne = new Chart(chartThreeOneCtx, {
+    type: 'bar',
+    data: {
+        labels: chartThreeOneLabels,
+        datasets: [{
+            data: chartThreeOneBlueBarValuesOne,
+            backgroundColor: "rgb(66, 135, 245)",
+        },
+        {
+            data: chartThreeOneGreyBarValuesOne,
+            backgroundColor: "rgb(158, 158, 158)",
+        }
+        ]
+    },
+    options: {
+        scales: {
+            xAxes: [
+                {
+                    categoryPercentage: 0.5,
+                    barPercentage: 0.4,
+                    gridLines: {
+                        drawBorder: true,
+                        drawOnChartArea: false
+                    },
+                }
+            ],
+            yAxes: [{
+                position: 'right',
+                gridLines: {
+                    display: false,
+                },
+                ticks: {
+                    display: false,
+                    beginAtZero: true, 
+                    max:10
+                },
+            }]
+        },
+        legend: {
+            display: false,
+        },
+        layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 0
+            }
+        },
+        tooltips: {
+            enabled: false
+        },
+        events: [],
+        responsive: true,
+        maintainAspectRatio: true,
+        animation: {
+            onComplete: addDataValuesToBars(-5, '#000')
+        }
+    }
+  });
+
+  const chartThreeTwo = new Chart(chartThreeTwoCtx, {
+    type: 'bar',
+    data: {
+        labels: chartThreeTwoLabels,
+        datasets: [{
+            data: chartThreeTwoBlueBarValuesTwo,
+            backgroundColor: "rgb(66, 135, 245)",
+        },
+        {
+            data: chartThreeTwoGreyBarValuesTwo,
+            backgroundColor: "rgb(158, 158, 158)",
+        }
+        ]
+    },
+    options: {
+        scales: {
+            xAxes: [
+                {
+                    categoryPercentage: 0.5,
+                    barPercentage: 0.4,
+                    gridLines: {
+                        drawBorder: true,
+                        drawOnChartArea: false
+                    },
+                }
+            ],
+            yAxes: [{
+                position: 'right',
+                gridLines: {
+                    display: false,
+                },
+                ticks: {
+                    display: false,
+                    beginAtZero: true,
+                    max:10
+                },
+            }]
+        },
+        legend: {
+            display: false,
+        },
+        layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 0
+            }
+        },
+        tooltips: {
+            enabled: false
+        },
+        events: [],
+        responsive: true,
+        maintainAspectRatio: true,
+        animation: {
+            onComplete: addDataValuesToBars(-5, '#000')
+        }
+    }
+});
+
+  </script>
 
  
 </article>
