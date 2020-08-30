@@ -7,14 +7,14 @@
 							Yousif
 						</div> -->
 
-<div>
-	<style type="text/css" scoped>
-		.hide_scrollBar::-webkit-scrollbar { background-color:transparent; width:0px; } 
-	</style>
-    <img class="mx-auto mb-24 mt-5 lg:h-24 h-24 w-24 lg:w-24" src="<?php bloginfo('template_directory') ?>/img/user-check-light.svg" >
+						<div style="margin-top:110px;">
+    <div class="border-gray-700 border w-16 h-16 rounded-full py-2 px-2 flex items-center justify-center text-gray-700" style="margin:0 auto">
+        <img class="mx-auto lg:h-8 h-8 w-8 lg:w-8" src="<?php bloginfo('template_directory') ?>/img/user-check-light.svg" >
+      </div>
+    
   </div>
-  <div class="w-full mb-12 sm:mb-32">
-    <h2 class="font-bold text-center px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+  <div class="w-full mb-32 ">
+    <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
 	Please listen to patients who have been cared for by Himedi.
     </h2>
   </div>
@@ -24,17 +24,13 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper mt-1 h-full">
                 <!-- Slides -->
-
-
-                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12">
-					<div class="px-3 overflow-auto hide_scrollBar" style="max-height:49%; margin-bottom:1%;">
-						<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
-						</svg>						
-						<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
+                <div class="swiper-slide">
+					<div class="px-3">
+						<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/main-review.png" alt="" />
+						<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; line-height:1.4;">
 							Regarding Himedi, to be honest, they did all their best for us, starting from the airport where they greeted us in a friendly manner to recommending the best hotels in Seoul for us. They took care of everything, especially hospital recommendations, recommending one of the best hospitals in Seoul that is specialized in cancer treatments.
 						</div>	
-						<div class="mt-10 text-gray-500 mb-4 italic font-size-24 font-roboto leading-none" style="font-size:20px">
+						<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="font-size:20px">
 							Yousif
 						</div>
 					</div>
@@ -53,7 +49,7 @@
 								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
 								</svg>
 
-								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
+								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; line-height:1.4;">
 									Frankly, Everything they provide is good, including organizing and all what they do is just well provided.
 								</div>	
 								<div class="mt-10 text-gray-500 mb-4 italic text-3xl">
@@ -83,7 +79,7 @@
 								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
 								</svg>
 
-								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
+								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; line-height:1.4;">
 									Himedi is a specialized company, I am glad that I had the opportunity of getting to know it. When we came in Seoul we were able to experience its services all. Those who work there, they can speak Arabic and English very well, and I just felt as if I am in my homeland.
 								</div>	
 								<div class="mt-10 text-gray-500 mb-4 italic font-size-24 font-roboto leading-none" style="font-size:20px">
