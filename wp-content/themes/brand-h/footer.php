@@ -9,39 +9,30 @@
 ?>
 
 <footer class="text-center mt-20 font-noto-regular">
+	<!-- Footer links (start) -->
+	<!-- <h2 class="px-8 font-bold text-left font-size-24 font-roboto leading-relaxed " style="font-size:22px"> -->
+	<div class="text-2xl mb-5  ">
+		<a href="https://himedi.com/en?terms=true" class="text-gray-600 font-bold ">Terms of Use</a> .
+		<a href="https://himedi.com/en?privacy=true" class="text-gray-600 font-bold">Privacy Policy</a>
+	</div>
+	<!-- Footer links (end) -->
+
+	<!-- Address (start) -->
+	<p class="text-gray-500 " style="font-size:13px">
+		10, Anson Road, #34-10, International Plaza,<br class="lg:hidden"> Singapore 079903
+	</p>
+	<!-- Address (end) -->
+
+	<!-- Copyright notice (start) -->
+	<p class="text-gray-500 mt-8 mb-16">
+		© HIMEDI SEA PTE. LTD.
+	</p>
+	<!-- Copyright notice (end) -->
 
 
-<div class="text-2xl mb-5  ">
-<a href="https://himedi.com/en?terms=true" class="text-gray-600 font-bold "style="font-size:14px;">Terms of Use</a> .
-<a href="https://himedi.com/en?privacy=true" class="text-gray-600 font-bold" style="font-size:14px;">Privacy Policy</a>
-</div>
-
-
-<p class="text-gray-500 px-20 " style="font-size:13px">
-10, Anson Road, #34-10, International Plaza, Singapore 079903
-</p>
-
-
-<p class="text-gray-500 mt-8 mb-16">
-&copy; HIMEDI SEA PTE. LTD.
-</p>
-
-</footer>
+</footer> 
 
 <?php wp_footer(); ?>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script>
-		$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 50) {
-        $(".header-container").addClass("fixed-top");
-    } else {
-        $(".header-container").removeClass("fixed-top");
-    }
-});
-		</script>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
