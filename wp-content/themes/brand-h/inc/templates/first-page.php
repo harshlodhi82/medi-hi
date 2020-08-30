@@ -131,21 +131,21 @@
         </div>
 
 		</div>
-	</div> -->
+	</div> 
 
-  <!-- <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10"> -->
-		<!-- <button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button> -->
-		<!-- <button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button> -->
-		<!-- <button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button> -->
-  <!-- </div> -->
-  
+  <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10 ">
+		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
+		<button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
+		<button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
+  </div>
+   -->
   <!-- Chart animation end -->
 
   <!-- Chart (start) -->
-	<div class="chartsWrap text-justify" style="background-color:#f2f3f5">
+	<div class="chartsWrap text-justify " style="background-color:#f2f3f5">
 		<div class="chart0 active sm:p-10 p-5">
-      <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:18px; line-height:32px; font-weight:400; padding-bottom:41px;">
-				The survival rate of patients with one of the 5 major cancers compared to that in the U.S.
+      <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:18px; line-height:32px; font-weight:400;">
+				The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S.
 			</p>
 			<img class="mx-auto w-full" src="<?php bloginfo('template_directory') ?>/img/chart1.png" alt="">
 			<div class="flex justify-between sm:text-3xl text-xl text-gray-600">
@@ -163,8 +163,8 @@
 			<img class="mx-auto" src="<?php bloginfo('template_directory') ?>/img/chart2.svg" alt="">
 		</div>
 		<div class="chart2">
-      <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:18px; line-height:32px; font-weight:400; padding-bottom:41px;">
-				Medical expenses for serious illnesses in Germany VS Korea
+      <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:18px; line-height:32px; font-weight:400; padding-bottom:8px;">
+				Medical expenses for serious illnesses in <strong>Germany VS Korea</strong>
 			</p>
 			<img class="mx-auto w-full" src="<?php bloginfo('template_directory') ?>/img/chart3.svg" alt="">
 			<div class="flex text-center text-gray-600 pt-5 pb-5 sm:px-10 px-0 sm:text-2xl text-sm">
@@ -176,7 +176,7 @@
   <!-- Chart (end) -->
   
   	<!-- Chart Trigger (start) -->
-	<div class="pt-32 flex justify-between px-10 py-10 chartTrigCont">
+	<div class="pt-32 flex justify-between px-10 py-10 chartTrigCont ">
 		<button class="chartTrig0 border-2 border-dashed border-blue-500 focus:outline-none outline-none rounded-full p-5">5 major cancers compared to that in the U.S.</button>
 		<button class="chartTrig1 border-dashed border-blue-500 focus:outline-none outline-none rounded-full p-5">No. of hospitals per a thousand people among OECD countries</button>
 		<button class="chartTrig2 border-dashed border-blue-500 focus:outline-none outline-none rounded-full p-5">Korea’s medical service boasts a world-class level.</button>
