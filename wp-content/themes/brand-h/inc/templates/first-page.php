@@ -75,14 +75,14 @@
 		
 		<!-- Arrow icon (start) -->
         <a href="#section3">
-        <img class="mx-auto lg:pt-0 pt-40 pb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+          <img class="mx-auto lg:pt-0 pt-40 pb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
         </a>
 		<!-- Arrow icon (end) -->
 		
 	<!-- Section1-1 (end) -->
     <!-- Section 2 (start) -->
 
-<section class="mt-10 w-full text-center overflow-hidden">
+<section class="mt-10 w-full text-center overflow-hidden" id="section3">
   <!-- Chart By Harsh -->
 
   <div class="w-full bg-gray-100 text-justify">
@@ -149,8 +149,10 @@
 
 	<!-- Chart Text (end) -->
 
-	<!-- Arrow icon (start) -->
-	<img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+  <!-- Arrow icon (start) -->
+  <a href="#section4">
+    <img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+  </a>
 	<!-- Arrow icon (end) -->	
   
 </section>
