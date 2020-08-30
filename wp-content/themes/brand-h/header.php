@@ -203,9 +203,9 @@ body.home.page-template-default.page.page-id-5.logged-in.admin-bar.customize-sup
             top:20px!important;
         }
         
-        .z-40{
+        /* .z-40{
             z-index:9999!important;
-        }
+        } */
         
         .main_cont_img .flex img{
                /*transition: transform .2s;*/
@@ -407,7 +407,7 @@ body.home.page-template-default.page.page-id-5.logged-in.admin-bar.customize-sup
 						</a>
 					</div>
 
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>/about-us/#history" class="text-black" style="color:black!important"> 
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>/about-us" class="text-black" style="color:black!important"> 
 						<div class="mt-12" >
 							<div style="position:relative">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg" style="position:absolute;top:0px">
