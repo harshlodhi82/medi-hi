@@ -1,0 +1,22 @@
+[30-Aug-2020 15:55:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Sunset_Walker_Nav_Primary' not found in /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/header.php:467
+Stack trace:
+#0 /Users/ryancho/work/medi-hi-master/wp-includes/template.php(723): require_once()
+#1 /Users/ryancho/work/medi-hi-master/wp-includes/template.php(672): load_template('/Users/ryancho/...', true)
+#2 /Users/ryancho/work/medi-hi-master/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/page.php(7): get_header()
+#4 /Users/ryancho/work/medi-hi-master/wp-includes/template-loader.php(106): include('/Users/ryancho/...')
+#5 /Users/ryancho/work/medi-hi-master/wp-blog-header.php(19): require_once('/Users/ryancho/...')
+#6 /Users/ryancho/work/medi-hi-master/index.php(17): require('/Users/ryancho/...')
+#7 {main}
+  thrown in /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/header.php on line 467
+[30-Aug-2020 15:55:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Sunset_Walker_Nav_Primary' not found in /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/header.php:467
+Stack trace:
+#0 /Users/ryancho/work/medi-hi-master/wp-includes/template.php(723): require_once()
+#1 /Users/ryancho/work/medi-hi-master/wp-includes/template.php(672): load_template('/Users/ryancho/...', true)
+#2 /Users/ryancho/work/medi-hi-master/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/page.php(7): get_header()
+#4 /Users/ryancho/work/medi-hi-master/wp-includes/template-loader.php(106): include('/Users/ryancho/...')
+#5 /Users/ryancho/work/medi-hi-master/wp-blog-header.php(19): require_once('/Users/ryancho/...')
+#6 /Users/ryancho/work/medi-hi-master/index.php(17): require('/Users/ryancho/...')
+#7 {main}
+  thrown in /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/header.php on line 467
