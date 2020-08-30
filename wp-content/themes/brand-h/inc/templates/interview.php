@@ -20,12 +20,12 @@
   </div>
   
 	<!-- Main slider (start) -->
-	<div class="swiper-container" style="height:90vh">
+	<div class="swiper-container" style="height:10vh">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper mt-1 h-full">
                 <!-- Slides -->
-                <div class="swiper-slide">
-					<div class="px-3">
+                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12">
+					<div class="px-3 overflow-auto hide_scrollBar" style="max-height:49%; margin-bottom:1%;">
 						<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/main-review.png" alt="" />
 						<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; line-height:1.4;">
 							Regarding Himedi, to be honest, they did all their best for us, starting from the airport where they greeted us in a friendly manner to recommending the best hotels in Seoul for us. They took care of everything, especially hospital recommendations, recommending one of the best hospitals in Seoul that is specialized in cancer treatments.

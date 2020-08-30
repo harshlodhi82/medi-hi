@@ -147,30 +147,30 @@ Surgery: Interbody fusion, C-spine or L-spine, Posterior fusion, Total Knee Repl
     </h2>
   </div>
   <!-- logo --> 
-  <div class="mt-20 main_cont_img">
+  <div id="best_medical_staffs" class="mt-20 ">
     <div class="flex">
-      <img onclick="myFunction1()" id="click_me_btn" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/01-logo.png" >
-      <img onclick="myFunction2()" id="click_me_btn2" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/02-logo.png" >
-      <img onclick="myFunction3()" id="click_me_btn3" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/03-logo.png" >
+      <img id="best_medical_staff_1"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/01-logo.png" >
+      <img id="best_medical_staff_2" class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/02-logo.png" >
+      <img id="best_medical_staff_3" class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/03-logo.png" >
     </div>
     <div class="flex">
-      <img onclick="myFunction4()" id="click_me_btn4" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/04-logo.png" >
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/05-logo.png" >
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/06-logo.png" >
+      <img id="best_medical_staff_4" class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/04-logo.png" >
+      <img id="best_medical_staff_5" class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/05-logo.png" >
+      <img id="best_medical_staff_6"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/06-logo.png" >
     </div>
     <div class="flex">
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/07-logo.png" >
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/08-logo.png" >
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/09-logo.png" >
+      <img id="best_medical_staff_7"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/07-logo.png" >
+      <img id="best_medical_staff_8"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/08-logo.png" >
+      <img id="best_medical_staff_9"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/09-logo.png" >
     </div>
     <div class="flex">
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/10-logo.png" >
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/11-logo.png" >
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/12-logo.png" >
+      <img id="best_medical_staff_10"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/10-logo.png" >
+      <img id="best_medical_staff_11"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/11-logo.png" >
+      <img id="best_medical_staff_12"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/12-logo.png" >
     </div>
     <div class="flex">
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/13-logo.png" >
-      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/14-logo.png" >
+      <img id="best_medical_staff_13"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/13-logo.png" >
+      <img id="best_medical_staff_14"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/14-logo.png" >
     </div>
   </div>
   <!-- logo end -->
