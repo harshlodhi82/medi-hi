@@ -86,18 +86,6 @@
     <!-- Section 2 (start) -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <section id="graphs" class="mt-10 w-full text-center overflow-hidden">
   <!-- Chart By Harsh -->
 
@@ -170,73 +158,6 @@
 	<!-- Arrow icon (end) -->	
   
 </section>
-
-<!-- Old Chart -->
-<!-- <section class="mt-20 w-full text-center"> -->
-
-	<!-- Chart (start) -->
-  
-	<!-- <div class="chartsWrap bg-gray-100 text-justify">
-		<div class="chart0 active lg:p-10 p-0">
-			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
-				The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S.
-			</p>
-			<img class="mx-auto w-full pl-4 pr-8" src="<?php bloginfo('template_directory') ?>/img/chart1.png" alt="">
-			<div class="flex justify-between py-5 pr-16 pl-8 text-gray-600 text-xs">
-				<span>Gastric Cancer</span>
-				<span>Colon Cancer</span>
-				<span>Breast Cancer</span>
-				<span>Liver Cancer</span>
-				<span>Cervical Cancer</span>
-			</div>
-		</div>
-		<div class="chart1">
-			<p class="pt-4 px-8 text-gray-700 pt-8 text-center font-size-24 font-noto-regular leading-none h-32" style="font-size:20px;height:80px">
-				No. of hospitals per a thousand people among OECD countries
-			</p>
-			<img class="mx-auto w-full pt-5 pr-0 pl-4" src="<?php bloginfo('template_directory') ?>/img/chart2.svg" alt="">
-			<div class="flex justify-between py-5 pr-0 pl-0 text-gray-600 text-xs">
-			
-			</div>
-		</div>
-		<div class="chart2">
-			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 ont-noto-regular leading-none" style="font-size:20px;background-color:#f2f3f5">
-				Medical expenses for serious illnesses in Germany VS Korea
-			</p>
-			<img class="mx-auto w-full mt-10" src="<?php bloginfo('template_directory') ?>/img/chart3.svg" alt="">
-			<div class="flex justify-center pt-5 pb-5 text-gray-600 text-xs">
-				<span class="w-1/2">Hematologic malignancy</span>
-				<span>Brain cancer</span>
-			</div>
-		</div>
-	</div> -->
-	<!-- Chart (end) -->
-
-	<!-- Chart Trigger (start) -->
-	<!-- <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10">
-		<button class="chartTrig0 border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
-		<button class="chartTrig1 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
-		<button class="chartTrig2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
-	</div> -->
-	<!-- Chart Trigger (end) -->
-
-  <!-- Chart Text (start) -->
-  <!-- <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
-        <h2 class="title-1" >
-        Korea’s medical service boasts a world-class level.
-        </h2>
-        <p class="pt-4 sub-title-1" >
-        Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible.
-        </p>
-    </div> -->
-
-	<!-- Chart Text (end) -->
-
-	<!-- Arrow icon (start) -->
-	<!-- <img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon"> -->
-	<!-- Arrow icon (end) -->		
-<!-- </section> -->
-<!-- Section 2 (end) -->
 
 <!-- Section 3 (start) -->
 <section id="bottom_info_image" class="text-center">
@@ -335,39 +256,6 @@
       </div>
     </div>
 
-	<!-- <button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 ont-noto-regular font-size-24" style="border-radius:30px;">
-		02
-	</button>
-	<div class="flex px-8">
-		<div class="lg:h-32 h-20 lg:w-32 w-20 flex itmes-center justify-center items-start mt-3" style="color:blue">
-		<img src="<?php bloginfo('template_directory') ?>/img/user-md-chat-light.svg" >
-		</div>
-    <div class="mb-5 w-full">
-	<div class="text-white mb-5 font-bold text-center px-3 font-size-24 ont-noto-regular leading-none">
-		  Telemedicine consultation
-		</div>
-		<div class="text-xl leading-none" style="">
-			  *Available for new patients as well
-		</div>
-    </div>
-	</div>
-
-	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 ont-noto-regular font-size-24" style="border-radius:30px;">
-		03
-	</button>
-	<div class="flex px-8">
-    <div class="lg:h-32 h-20 lg:w-32 w-20 flex itmes-center justify-center items-start mt-3" style="color:blue">
-      <img src="<?php bloginfo('template_directory') ?>/img/notes-medical-light.svg" >
-    </div>
-    <div class="mb-5 w-full">
-		<div class="text-white mb-5 font-bold text-center px-3 font-size-24 ont-noto-regular leading-none">
-		  Request for the 2nd opinion
-		</div>
-		<div class="text-xl leading-none" style="">
-		  *Available for new patients as well
-		</div>
-    </div>
-	</div> -->
   <!-- Button (start) -->
   <div class="flex justify-center">
   
