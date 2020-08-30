@@ -1346,6 +1346,19 @@ h2.sunset-widget-title {
   border-color:#2681F3
 }
 
+.chartTrigCont button {
+  width: 10em!important;
+  height: 10em!important;
+
+  
+}
+
+@media only screen and (max-width:500px) {
+  .chartTrigCont button {width: 14em!important;
+  height: 14em!important;
+  line-height: 15px;
+  font-size: 7px;}
+}
  
 
 @media only screen and (max-width: 600px) { /* mobile */

@@ -131,11 +131,20 @@
 		</div>
 	</div>
 
-  <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10">
-		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
-		<button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
-		<button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
+  <!-- <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10"> -->
+		<!-- <button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button> -->
+		<!-- <button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button> -->
+		<!-- <button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button> -->
+  <!-- </div> -->
+  
+  	<!-- Chart Trigger (start) -->
+	<div class="pt-32 flex justify-between px-10 py-10 chartTrigCont">
+		<button class="chartTrig0 border-2 border-dashed border-blue-500 focus:outline-none outline-none rounded-full p-5">5 major cancers compared to that in the U.S.</button>
+		<button class="chartTrig1 border-dashed border-blue-500 focus:outline-none outline-none rounded-full p-5">No. of hospitals per a thousand people among OECD countries</button>
+		<button class="chartTrig2 border-dashed border-blue-500 focus:outline-none outline-none rounded-full p-5">Korea’s medical service boasts a world-class level.</button>
 	</div>
+  <!-- Chart Trigger (end) -->
+  
 
    <!-- Chart Text (start) -->
    <!-- <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
