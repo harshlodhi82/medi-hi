@@ -7,8 +7,15 @@
 
 */
 
+
 ?>
 <article id="post-<?php the_ID();?>" <?php post_class();?>>
+
+<style type="text/css" scoped>
+    html { scroll-behavior: smooth; } 
+</style>
+
+
  <!-- Section 1 (start) -->
  <section class="text-justify">
         <!-- Main slider (start) -->
@@ -51,14 +58,14 @@
         <!-- Content (end) -->
     
         <!-- Arrow icon (start) -->
-        <img class="mx-auto lg:pt-0 pt-10 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+        <img onclick="scrolldiv('top_info_image')" class="cursor-pointer mx-auto lg:pt-0 pt-10 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
         <!-- Arrow icon (end) -->
     
     </section>
     <!-- Section 1 (end) -->
 	<!-- Section1-1 (start) -->
 	  <!-- Content (start) -->
-	  <div class="mt-40 w-full">
+	  <div id="top_info_image" class="mt-40 w-full">
 	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" alt="">
     </div>
     <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
@@ -72,7 +79,7 @@
 		<!-- Content (end) -->
 		
 		<!-- Arrow icon (start) -->
-        <img class="mx-auto lg:pt-0 pt-40 pb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+        <img onclick="scrolldiv('graphs')" class="cursor-pointer mx-auto lg:pt-0 pt-40 pb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
 		<!-- Arrow icon (end) -->
 		
 	<!-- Section1-1 (end) -->
@@ -91,7 +98,7 @@
 
 
 
-<section class="mt-10 w-full text-center overflow-hidden">
+<section id="graphs" class="mt-10 w-full text-center overflow-hidden">
   <!-- Chart By Harsh -->
 
   <div class="w-full bg-gray-100 text-justify">
@@ -124,14 +131,14 @@
 				Medical expenses for serious illnesses in Germany VS Korea
 			</p>
 
-      <div class="flex-1 flex flex-wrap mx-10" style="max-width: 635px;">
+      <div id="chart_3_cont" class="flex-auto flex flex-wrap mx-10" style="max-width: 635px;">
             <div class="w-full flex flex-row p-4">
                 <div class="flex-auto w-1/2" >
-                    <p class="text-gray-500">$1M</p>
+                    <!-- <p class="left-0 top-0 text-gray-500">$1M</p> -->
                     <canvas id="chart_3_1" width="300" height="350"></canvas>
                 </div>
-                <div class="flex-auto  w-1/2" >
-                    <p class="text-gray-500">$1M</p>
+                <div class="flex-auto  w-1/2 " >
+                    <!-- <p class="left-0 top-0 text-gray-500">$1M</p> -->
                     <canvas id="chart_3_2" width="300" height="350"></canvas>
                 </div>
             </div>
@@ -159,7 +166,7 @@
 	<!-- Chart Text (end) -->
 
 	<!-- Arrow icon (start) -->
-	<img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+	<img onclick="scrolldiv('bottom_info_image')" class="cursor-pointer mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
 	<!-- Arrow icon (end) -->	
   
 </section>
@@ -232,7 +239,7 @@
 <!-- Section 2 (end) -->
 
 <!-- Section 3 (start) -->
-<section class="text-center">
+<section id="bottom_info_image" class="text-center">
 	<!-- Content (start) -->
 	<div class="relative">
 		<div class="bg-black w-full h-full absolute inset-0 opacity-50"></div>
@@ -543,9 +550,7 @@
   const chartOneBlueBarValues = [76, 76, 93, 35, 80]
   const chartOneGreyBarValues = [32, 66, 91, 19, 69]
 
-
-
-  const chartOne = new Chart(chartOneCtx, {
+  const chartOneOption = {
       type: 'bar',
       data: {
           labels: chartOneDataLabels,
@@ -595,7 +600,9 @@
               onComplete: addDataValuesToBars(20)
           }
       }
-  });
+  }
+
+  
 
   //** Chart Two */
   const chartTwoCtx = document.getElementById('chart_2').getContext('2d');
@@ -616,7 +623,7 @@
     return col;
   }
 
-  const chartTwo = new Chart(chartTwoCtx, {
+  const chartTwoOption = {
     type: 'bar',
     data: {
         labels: chartTwoDataLabels,
@@ -662,7 +669,8 @@
             onComplete: addDataValuesToBars(-5,'#000')
         }
     }
-  });
+  }
+  // const chartTwo = new Chart(chartTwoCtx, );
 
 
   //** Chart Three */
@@ -680,7 +688,7 @@
   const chartThreeTwoBlueBarValuesTwo = [5.0]
   const chartThreeTwoGreyBarValuesTwo = [3.5]
 
-  const chartThreeOne = new Chart(chartThreeOneCtx, {
+  const chartThreeOneOption = {
     type: 'bar',
     data: {
         labels: chartThreeOneLabels,
@@ -739,9 +747,8 @@
             onComplete: addDataValuesToBars(-5, '#000')
         }
     }
-  });
-
-  const chartThreeTwo = new Chart(chartThreeTwoCtx, {
+  }
+  const chartThreeTwoOption = {
     type: 'bar',
     data: {
         labels: chartThreeTwoLabels,
@@ -800,7 +807,77 @@
             onComplete: addDataValuesToBars(-5, '#000')
         }
     }
-});
+}
+
+
+
+function isScrolledIntoView(elem){
+      var docViewTop = document.getScrollTop();
+      var docViewBottom = docViewTop + window.innerHeight;
+      var elemTop = elem.offsetTop
+      var elemBottom = elemTop + elem.height;
+      return ((elemTop >= docViewTop) && (elemBottom <= docViewBottom));
+}
+
+document.getScrollTop = function() {
+    if (window.pageYOffset != undefined) {
+        return pageYOffset;
+    } else {
+        var sx, sy, d = document,
+            r = d.documentElement,
+            b = d.body;
+        sy = r.scrollTop || b.scrollTop || 0;
+        return sy;
+    }
+}
+
+function isHidden(el) {
+    return (el.offsetParent === null)
+}
+
+let chartOneElm =document.getElementById('chart_1');
+let chartTwoElm =document.getElementById('chart_2');
+let chartThreeOneElm =document.getElementById('chart_3_1');
+let chartThreeTwoElm =document.getElementById('chart_3_2');
+
+let chartOne 
+let chartTwo 
+let chartThreeOne
+let chartThreeTwo
+
+let flag = true;
+
+document.body.onscroll = (e)=>{
+  if(isScrolledIntoView(chartOneElm) && !isHidden(chartOneElm)){
+    if(!chartOne) chartOne = new Chart(chartOneCtx, chartOneOption);
+  }else{
+    chartOne = undefined;
+  }
+
+  if(isScrolledIntoView(chartTwoElm) && !isHidden(chartTwoElm)){
+    if(!chartTwo) chartTwo = new Chart(chartTwoCtx, chartTwoOption);
+  }else{
+    chartTwo = undefined;
+  }
+  
+  if(isScrolledIntoView(chartThreeOneElm) && !isHidden(chartThreeOneElm) && isScrolledIntoView(chartThreeTwoElm) && !isHidden(chartThreeTwoElm)){
+    if(!chartThreeOne && !chartThreeTwo){
+      chartThreeOne = new Chart(chartThreeOneCtx, chartThreeOneOption);
+      chartThreeTwo = new Chart(chartThreeTwoCtx, chartThreeTwoOption);
+     }
+  } else{
+    chartThreeOne = undefined;
+    chartThreeTwo = undefined;
+  }
+}
+
+
+
+
+function scrolldiv(elmId) { 
+  var elem = document.getElementById(elmId); 
+  elem.scrollIntoView(); 
+}
 
   </script>
 
