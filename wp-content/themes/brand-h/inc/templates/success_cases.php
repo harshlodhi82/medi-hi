@@ -72,9 +72,10 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="successCase_popup" class=" w-full sm:w-1/2 md:w-2/5 fixed top-0 z-50 p-10 pt-20 bg-white overflow-hidden  hidden" style="max-width: 635px;height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart2.png);background-repeat: no-repeat;background-size:100% 100%;top:50%; left: 50%; transform: translate(-50%, -50%);">
+    <div id="successCase_popup" class=" w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 bg-white overflow-hidden  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
             <!-- PopUp Content goes here. -->
-           <div class="w-full h-full mt-10 overflow-auto hide_scrollBar">
+            <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2.png" alt="" style="pointer-events:none">
+           <div class="w-full h-full overflow-auto hide_scrollBar" style="height:95%"> 
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-01.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-02.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-03.jpg" alt="">
@@ -82,7 +83,6 @@
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-05.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-06.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-07.jpg" alt="">
-               <!-- img/case/case-01.jpg  -->
            </div>
     </div>
     <script>
