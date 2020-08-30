@@ -312,14 +312,14 @@
 	<!-- Question 1 (start) -->
 	<div class="field-container mb-10">
 		<div class="w-full">
-			<label class="block font-bold mb-1 mb-0 pr-4" for="message2">
+			<label class="block font-bold mb-1 mb-0 pr-4" for="message">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
 				Major questions to doctors: <span class="text-red-500">*</span>
 			</label>
 		</div>
 		<div class="w-full p-10">
-			<textarea name="message2" id="message2" class="field-input border border-gray-500 w-full px-4" placeholder="Your Message2" rows="3" required></textarea>
-			<small class="field-msg error" data-error="invalidMessage2">A Message2 is Required</small>
+			<textarea name="message" id="message" class="field-input border border-gray-500 w-full px-4" placeholder="Your Message" rows="3" required></textarea>
+			<small class="field-msg error" data-error="invalidMessage">A Message is Required</small>
 		</div>
 	</div>
 	<!-- Question 1 (end) -->
@@ -352,7 +352,7 @@
 			<button type="stubmit" class="applyBtn bg-brand p-5 text-white font-normal w-1/2 mx-auto mt-10" style="border-radius:10px; font-size:18px">Apply</button>
 		</div>
 		<small class="field-msg js-form-submission">Submission in process, please wait&hellip;</small>
-		<small class="field-msg success js-form-success">Successfully submitted, <a href="/wp-admin/edit.php?post_type=testimonial"> Goto Result through Admin page</a></small>
+		<small class="field-msg success js-form-success">Successfully submitted.</small>
 		<small class="field-msg error js-form-error">There was a problem with the Contact Form, please try again!</small>
 	</div>
 
