@@ -7,3 +7,4 @@ wp-config-prod.php
 wp-content/.DS_Store
 wp-content/plugins/.DS_Store
 
+wp-content/plugins/all-in-one-wp-migration/storage/index.html
