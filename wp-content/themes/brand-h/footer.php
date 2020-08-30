@@ -34,19 +34,6 @@
 
 <?php wp_footer(); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script>
-		$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 50) {
-        $(".header-container").addClass("fixed-top");
-    } else {
-        $(".header-container").removeClass("fixed-top");
-    }
-});
-		</script>
-
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>

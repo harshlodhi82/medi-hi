@@ -1,20 +1,13 @@
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
-<<<<<<< HEAD
 <div class="flex justify-center flex-wrap mx-10">
         <div class="mx-auto mb-24 mt-5 lg:h-24 h-24 w-24 lg:w-24"> 
             <svg viewBox="0 0 384 512" fill="black" xmlns="http://www.w3.org/2000/svg">
-=======
-<div class="flex justify-center flex-wrap mx-10" style="margin-top:70px;">
-        <div class="border-gray-700 border w-16 h-16 rounded-full py-2 px-2 flex items-center justify-center text-gray-700"> 
-            <svg viewBox="0 0 384 512" class="w-8 h-8" fill="black" xmlns="http://www.w3.org/2000/svg">
->>>>>>> pr/20
                 <path
                     d="M336 64H247.4C247.8 61.4 248 58.7 248 56C248 25.1 222.9 0 192 0C161.1 0 136 25.1 136 56C136 58.7 136.2 61.4 136.6 64H48C21.5 64 0 85.5 0 112V464C0 490.5 21.5 512 48 512H336C362.5 512 384 490.5 384 464V112C384 85.5 362.5 64 336 64ZM192 32C205.3 32 216 42.7 216 56C216 69.3 205.3 80 192 80C178.7 80 168 69.3 168 56C168 42.7 178.7 32 192 32ZM352 464C352 472.8 344.8 480 336 480H48C39.2 480 32 472.8 32 464V112C32 103.2 39.2 96 48 96H96V116C96 122.6 101.4 128 108 128H276C282.6 128 288 122.6 288 116V96H336C344.8 96 352 103.2 352 112V464ZM280 288H224V232C224 227.6 220.4 224 216 224H168C163.6 224 160 227.6 160 232V288H104C99.6 288 96 291.6 96 296V344C96 348.4 99.6 352 104 352H160V408C160 412.4 163.6 416 168 416H216C220.4 416 224 412.4 224 408V352H280C284.4 352 288 348.4 288 344V296C288 291.6 284.4 288 280 288Z"
                     fill="black" />
             </svg>
         </div>
-<<<<<<< HEAD
         <div class="w-full mb-32 ">
             <h2 class="font-bold text-center px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
                 Check out these diagnosis examples and methods bestsuitable for you.
@@ -26,18 +19,6 @@
         <div class="flex justify-center flex-wrap w-8/12 lg:w-5/12 lg:text-3xl">
             <button id="choleithiasis_button" onclick="success_cases_popup()"
                 class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
-=======
-    
-        <div class="w-full mb-32 ">
-            <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
-                Check out these diagnosis examples and methods bestsuitable for you.
-            </h2>
-        </div>
-
-        <div class="flex justify-center flex-wrap w-8/12 lg:w-5/12 lg:text-3xl">
-            <button id="choleithiasis_button" onclick="success_cases_popup()"
-                class="button-12 relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
->>>>>>> pr/20
                 Choleithiasis
                 <svg class="w-10 lg:w-10 absolute right-0 mr-5 lg:mr-5" viewBox="0 0 640 512" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -80,21 +61,13 @@
         </div>
     </div>
 
-<<<<<<< HEAD
     <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-=======
-    <!-- <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
->>>>>>> pr/20
     <div id="main_pop_up" class="w-full absolute top-0 hidden" 
         style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
         <div>
             asdasd
         </div>
-<<<<<<< HEAD
     </div>
-=======
-    </div> -->
->>>>>>> pr/20
 
     <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
     <div id="main_pop_up" class="w-full absolute top-0 hidden" 
