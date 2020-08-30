@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 <div class="pt-20">
   <!-- <div id="popup_cancel_btn" class="absolute top-0 right-0 p-4 m-4 text-3xl cursor-pointer z-40 font-bold text-white hidden" >X</div>
   <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 z-20 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
@@ -8,6 +9,17 @@
   <!--Hidden-popup better (start)  -->
   <!-- <div id="popup" class="hidden z-40 absolute top-0 " style="top:25%" >
     <div class="py-5 px-5 mx-5 bg-white flex flex-col rounded" style="z-index:1">  
+=======
+<div class="pt-20 relative">
+  <div id="popup_cancel_btn" class="absolute top-0 right-0 p-4 m-4 text-3xl cursor-pointer z-40 font-bold text-white hidden" style="top:70px;" >X</div>
+  <div id="pop_up_bg" class="absolute w-screen-98 h-screen-per top-0 right-poop-0 z-20 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div id="pop_up_bg2" class="absolute w-screen h-screen top-0 right-0 z-20 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div id="popup_cancel_btn2" class="h-screen h-full absolute top-0 right-0 p-4 m-4 text-3xl cursor-pointer z-40 font-bold text-white hidden" >X</div>
+  
+  <!--Hidden-popup better (start)  -->
+  <div id="popup" class="hidden z-40 absolute top-0 " style="top:25%" >
+    <div class="py-10 px-10 mx-5 bg-white flex flex-col rounded" style="z-index:1">  
+>>>>>>> pr/20
       <div alt="hospital image"
                 class="bg-cover content-partners"
                 style="background-image: url(<?php bloginfo('template_directory') ?>/img/partners/01.jpg);">
@@ -29,11 +41,19 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
   </div> -->
   <!--Hidden-popup better (end)  -->
   <!--Hidden-popup better (start)  -->
   <!-- <div id="popup2" class="hidden z-40 absolute top-0" style="top:15%" >
     <div class="py-5 px-5 mx-5 bg-white flex flex-col" style="z-index:1">  
+=======
+  </div>
+  <!--Hidden-popup better (end)  -->
+  <!--Hidden-popup better (start)  -->
+  <div id="popup2" class="hidden z-40 absolute top-0" style="top:15%" >
+    <div class="py-10 px-10 mx-5 bg-white flex flex-col" style="z-index:1">  
+>>>>>>> pr/20
       <div alt="hospital image"
                 class="bg-cover content-partners"
                 style="background-image: url(<?php bloginfo('template_directory') ?>/img/partners/02.jpg);">
@@ -53,11 +73,19 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
   </div> -->
   <!--Hidden-popup better (end)  -->
   <!--Hidden-popup better (start)  -->
   <!-- <div id="popup3" class="hidden z-40 absolute top-0" style="top:15%" >
     <div class="py-5 px-5 mx-5 bg-white flex flex-col" style="z-index:1">  
+=======
+  </div>
+  <!--Hidden-popup better (end)  -->
+  <!--Hidden-popup better (start)  -->
+  <div id="popup3" class="hidden z-40 absolute top-0" style="top:15%" >
+    <div class="py-10 px-10 mx-5 bg-white flex flex-col" style="z-index:1">  
+>>>>>>> pr/20
       <div alt="hospital image"
                 class="bg-cover content-partners"
                 style="background-image: url(<?php bloginfo('template_directory') ?>/img/partners/03.jpg);">
@@ -82,11 +110,19 @@ Surgery: Interbody fusion, C-spine or L-spine, Posterior fusion, Total Knee Repl
         </div>
       </div>
     </div>
+<<<<<<< HEAD
   </div> -->
   <!--Hidden-popup better (end)  -->
  <!--Hidden-popup better (start)  -->
  <!-- <div id="popup4" class="hidden z-40 absolute top-0" style="top:15%" >
     <div class="py-5 px-5 mx-5 bg-white flex flex-col" style="z-index:1">  
+=======
+  </div>
+  <!--Hidden-popup better (end)  -->
+ <!--Hidden-popup better (start)  -->
+ <div id="popup4" class="hidden z-40 absolute top-0" style="top:15%" >
+    <div class="py-10 px-10 mx-5 bg-white flex flex-col" style="z-index:1">  
+>>>>>>> pr/20
       <div alt="hospital image"
                 class="bg-cover content-partners"
                 style="background-image: url(<?php bloginfo('template_directory') ?>/img/partners/04.jpg);">
@@ -109,6 +145,7 @@ Surgery: Interbody fusion, C-spine or L-spine, Posterior fusion, Total Knee Repl
         </div>
       </div>
     </div>
+<<<<<<< HEAD
   </div> -->
   <!--Hidden-popup better (end)  -->
 
@@ -135,10 +172,27 @@ Surgery: Interbody fusion, C-spine or L-spine, Posterior fusion, Total Knee Repl
   </div>
   <div class="w-full mb-32 ">
     <h2 class="font-bold text-center px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+=======
+  </div>
+  <!--Hidden-popup better (end)  -->
+
+
+  <div style="margin-top:70px;">
+    
+    
+    <div class="border-gray-700 border w-16 h-16 rounded-full py-2 px-2 flex items-center justify-center text-gray-700" style="margin:0 auto">
+        <img class="mx-auto lg:h-8 h-8 w-8 lg:w-8"  src="<?php bloginfo('template_directory') ?>/img/hospital-alt-light.svg" >
+      </div>
+    
+  </div>
+  <div class="w-full mb-32 ">
+    <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
+>>>>>>> pr/20
       Check out Korea’s <br class="lg:hidden">best medical staff.
     </h2>
   </div>
   <!-- logo --> 
+<<<<<<< HEAD
   <div id="best_medical_staffs" class="mt-20 ">
     <div class="flex">
       <img id="best_medical_staff_1"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/01-logo.png" >
@@ -163,6 +217,32 @@ Surgery: Interbody fusion, C-spine or L-spine, Posterior fusion, Total Knee Repl
     <div class="flex">
       <img id="best_medical_staff_13"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/13-logo.png" >
       <img id="best_medical_staff_14"  class="mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/14-logo.png" >
+=======
+  <div class="mt-20 main_cont_img">
+    <div class="flex">
+      <img onclick="myFunction1()" id="click_me_btn" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/01-logo.png" >
+      <img onclick="myFunction2()" id="click_me_btn2" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/02-logo.png" >
+      <img onclick="myFunction3()" id="click_me_btn3" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/03-logo.png" >
+    </div>
+    <div class="flex">
+      <img onclick="myFunction4()" id="click_me_btn4" class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/04-logo.png" >
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/05-logo.png" >
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/06-logo.png" >
+    </div>
+    <div class="flex">
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/07-logo.png" >
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/08-logo.png" >
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/09-logo.png" >
+    </div>
+    <div class="flex">
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/10-logo.png" >
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/11-logo.png" >
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/12-logo.png" >
+    </div>
+    <div class="flex">
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/13-logo.png" >
+      <img class="hvr-curl-top-left mx-auto mb-24 lg:h-40 h-24 lg:w-40 w-24" src="<?php bloginfo('template_directory') ?>/img/partners/14-logo.png" >
+>>>>>>> pr/20
     </div>
   </div>
   <!-- logo end -->
