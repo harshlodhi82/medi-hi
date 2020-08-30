@@ -12,12 +12,12 @@
 	<!-- Icon (end) -->
 
 	<!-- Content (start) -->
-	<h2 class="font-bold text-left px-4 font-size-24 leading-none text-gray-700" style="font-size:22px; line-height:1.2">
-    Please leave your contact information and inquiry. An answer will be given within 24 hours.
+	<h2 class="text-center px-4 font-size-24 leading-none text-gray-700" style="font-size:24px; line-height:1.2">
+    Please leave your contact information and inquiry. An answer will be given <br class="lg:hidden"><b>within 24 hours.</b>
   </h3>
-  <p class="text-bold mt-5 font-bold text-left px-6 leading-none" style="color:#2681F3;font-size:18px">
+  <p class="mt-5 text-center px-6 leading-none" style="color:#2681F3;font-size:16px">
 	
-		* If you have an urget inquiry please leave it via WhatsApp.
+		* If you have an urget inquiry <br class="lg:hidden"> please leave it via WhatsApp.
 	</p>
 	<!-- Content (end) -->
 
