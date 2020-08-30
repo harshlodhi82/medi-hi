@@ -131,7 +131,7 @@
 				Medical expenses for serious illnesses in Germany VS Korea
 			</p>
 
-      <div id="chart_3_cont" class="flex-auto flex flex-wrap mx-10" style="max-width: 635px;">
+      <div id="chart_3_cont" class="flex-auto flex flex-wrap mx-10 w-full" style="max-width: 635px;">
             <div class="w-full flex flex-row p-4">
                 <div class="flex-auto w-1/2" >
                     <!-- <p class="left-0 top-0 text-gray-500">$1M</p> -->
@@ -541,10 +541,6 @@
   }
 
   //** Chart One */
-  // chart_1
-  // chart_2
-  // chart_3
-
   const chartOneCtx = document.getElementById('chart_1').getContext('2d');
   const chartOneDataLabels = ["Gastric Cancer","Colon Cancer","Breast Cancer","Liver Cancer","Cervical Cancer"]
   const chartOneBlueBarValues = [76, 76, 93, 35, 80]
@@ -569,13 +565,25 @@
               xAxes: [
                   {
                       categoryPercentage: 0.5,
-                      barPercentage: 1.0
+                      barPercentage: 1.0,
+                      ticks:{
+                        display: (screen.width <= 600)? false:true,
+                      },
+                      gridLines:{
+                        drawBorder: true,
+                        drawOnChartArea: false,
+                      }
                   }
               ],
               yAxes: [{
                   position: 'right',
                   ticks: {
+                    display: false,
                       beginAtZero: true
+                  },
+                  gridLines:{
+                      drawBorder: true,
+                      display: false,
                   }
               }]
           },
@@ -595,14 +603,19 @@
           },
           events: [],
           responsive: true,
+          onResize:(myChart, size)=>{
+            if(screen.width <= 600){
+              myChart.options.scales.xAxes[0].ticks.display = false
+            }else{
+              myChart.options.scales.xAxes[0].ticks.display = true
+            }
+          },
           maintainAspectRatio:true,
           animation: {
               onComplete: addDataValuesToBars(20)
           }
       }
   }
-
-  
 
   //** Chart Two */
   const chartTwoCtx = document.getElementById('chart_2').getContext('2d');
@@ -638,14 +651,25 @@
             xAxes: [
                 {
                     categoryPercentage: 0.5,
-                    barPercentage: 1.0
+                    barPercentage: 1.0,
+                    ticks:{
+                      display: (screen.width <= 600)? false:true,
+                      },
+                      gridLines:{
+                        drawBorder: true,
+                        drawOnChartArea: false,
+                      }
                 }
             ],
             yAxes: [{
                 position: 'left',
                 ticks: {
-                    beginAtZero: true
-                }
+                    beginAtZero: true,
+                    display: false
+                },
+                gridLines:{
+                  display: false,
+                 }
             }]
         },
         legend: {
@@ -664,20 +688,21 @@
         },
         events: [],
         responsive: true,
+        onResize:(myChart, size)=>{
+            if(screen.width <= 600){
+              myChart.options.scales.xAxes[0].ticks.display = false
+            }else{
+              myChart.options.scales.xAxes[0].ticks.display = true
+            }
+          },
         maintainAspectRatio: true,
         animation: {
             onComplete: addDataValuesToBars(-5,'#000')
         }
     }
   }
-  // const chartTwo = new Chart(chartTwoCtx, );
-
 
   //** Chart Three */
-
-  // chart_3_1
-  // chart_3_2
-
   const chartThreeOneCtx = document.getElementById('chart_3_1').getContext('2d');
   const chartThreeOneLabels = ["Hematologic malignancy"]
   const chartThreeOneBlueBarValuesOne = [5.85]
@@ -712,6 +737,9 @@
                         drawBorder: true,
                         drawOnChartArea: false
                     },
+                    ticks:{
+                      display: (screen.width <= 400)?false:true,
+                    }
                 }
             ],
             yAxes: [{
@@ -742,12 +770,20 @@
         },
         events: [],
         responsive: true,
+        onResize:(myChart, size)=>{
+            if(screen.width <= 400){
+              myChart.options.scales.xAxes[0].ticks.display = false
+            }else{
+              myChart.options.scales.xAxes[0].ticks.display = true
+            }
+          },
         maintainAspectRatio: true,
         animation: {
             onComplete: addDataValuesToBars(-5, '#000')
         }
     }
   }
+
   const chartThreeTwoOption = {
     type: 'bar',
     data: {
@@ -772,6 +808,9 @@
                         drawBorder: true,
                         drawOnChartArea: false
                     },
+                    ticks:{
+                      display: (screen.width <= 400)?false:true,
+                    }
                 }
             ],
             yAxes: [{
@@ -802,14 +841,22 @@
         },
         events: [],
         responsive: true,
+        onResize:(myChart, size)=>{
+            if(screen.width <= 400){
+              myChart.options.scales.xAxes[0].ticks.display = false
+            }else{
+              myChart.options.scales.xAxes[0].ticks.display = true
+            }
+          },
+        onReady:()=>{
+          console.log("runn>");
+        },
         maintainAspectRatio: true,
         animation: {
             onComplete: addDataValuesToBars(-5, '#000')
         }
     }
 }
-
-
 
 function isScrolledIntoView(elem){
       var docViewTop = document.getScrollTop();
@@ -870,9 +917,6 @@ document.body.onscroll = (e)=>{
     chartThreeTwo = undefined;
   }
 }
-
-
-
 
 function scrolldiv(elmId) { 
   var elem = document.getElementById(elmId); 
